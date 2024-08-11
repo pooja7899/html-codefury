@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(background.jpg) no-repeat;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  padding: 20px, 100px;
+  text-decoration-color: rgb(223, 214, 214);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  background: transparent;
+  
+}
+.left-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: transparent;
+  right: 0;
+  top:0;
+}
+.logoo *{
+
+  margin-right: auto;
+  width: 60px;
+  height: 60px;
+  
+  color: rgb(224, 216, 216);
+    justify-content: center;
+    align-items: center;
+    text-align: bold;
+   
+ 
+}
+.navigation a{
+  
+  position:relative ;
+  font-size: 1.1em;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navigation {
+  width: 1 100px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: 40px;
+  top: 50px;
+  
+}
+.navigation a::after {
+  content: "";
+  left: 0;
+  bottom: -6px;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transform: transform 0.5s;
+  outline: none;
+}
+.navigation a:hover:after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navigation .btnlogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  margin-left: 40px;
+  font-weight: 500;
+  outline: none;
+  color: white;
+  transition: .5s;
+}
+.navigation .btnlogin-popup:hover{
+  background: #fff;
+  color: #162938;
+}
+
+h1 {
+  margin-top: 200px;
+  text-align: center;
+  top: -20px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7;
+}
+p {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: rgb(240, 229, 229);
+  padding: 60px;
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-size: 5.6;
+}
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 400px;
+}
